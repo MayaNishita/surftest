@@ -3,3 +3,11 @@
  Author:       Maya
  Template:     fsvbasic
 */
+@media screen and (min-width: 786px){
+#site-navigation ul li {
+    border-top: none;
+    width: auto;
+    float: right;
+    text-align: center;
+}
+}
