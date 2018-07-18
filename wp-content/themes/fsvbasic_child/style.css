@@ -7,10 +7,19 @@
 #site-navigation ul li {
     border-top: none;
     width: auto;
-    float: right;
+    float: left;
     text-align: center;
 }
-.content_img{
-    width: 32%;
+#site-navigation ul {
+    float:right;
+}
+.flex-container {
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+img.content_img{
+  max-width: 32%;
 }
 }
