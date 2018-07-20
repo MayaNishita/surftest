@@ -3,8 +3,74 @@
  Author:       Maya
  Template:     fsvbasic
 */
+h1.main-content-title{
+  position:relative;
+  background:none;
+  color:#00247a;
+  font-size:22px;
+  font-size:2.2rem;
+  line-height:1.2;
+  font-weight:normal;
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  padding-bottom:10px;
+  padding-bottom:1rem;
+  border-bottom:3px solid #ccc;
+  border-bottom:0.3rem solid #ccc;
+}
+.main-content-title::before{
+    background-color: #00247a;
+    position: absolute;
+    bottom: -3px;
+    bottom: -0.3rem;
+    left: 0;
+    z-index: 2;
+    content: '';
+    width: 27.5%;
+    height: 3px;
+    height: 0.3rem;
+}
+button.btn{
+  font-family: "Sawarabi Gothic";
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    width: 450px;
+    height: 60px;
+    margin: 15px 0 15px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    font-size: 1.8em;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(#1463dc 0%, #00247a 100%);
+    background-image: linear-gradient(#1463dc 0%, #00247a 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+button.btn:active{/*押したとき*/
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);/*沈むように*/
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    background: #00247a;
+}
+h2.top_content{
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  line-height:1.5;
+  padding-top:5px;
+  padding-top:0.5rem;
+  font-size: 18px;
+  font-size: 1.8rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
 @media screen and (min-width: 786px){
-#site-navigation ul li {
+/*#site-navigation ul li {
     border-top: none;
     width: auto;
     float: left;
@@ -12,14 +78,18 @@
 }
 #site-navigation ul {
     float:right;
-}
+}*/
 .flex-container {
   width: 100%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  margin-bottom: 30px;
 }
 img.content_img{
-  max-width: 32%;
+  width: 32.8%;
+  height: 100%;
+  margin: 3px;
 }
+
 }
