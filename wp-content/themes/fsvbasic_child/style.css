@@ -3,14 +3,16 @@
  Author:       Maya
  Template:     fsvbasic
 */
+
 h1.main-content-title{
+  text-align: center;
   position:relative;
   background:none;
   color:#00247a;
   font-size:22px;
   font-size:2.2rem;
   line-height:1.2;
-  font-weight:normal;
+  font-weight: bold;
   margin-bottom: 20px;
   margin-bottom: 2rem;
   padding-bottom:10px;
@@ -30,14 +32,28 @@ h1.main-content-title{
     height: 3px;
     height: 0.3rem;
 }
+h2.top_content{
+  border-bottom: 0.3rem solid #eee;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  margin-top: 20px;
+  line-height:1.5;
+  padding-top:5px;
+  padding-top:0.5rem;
+  font-size: 18px;
+  font-size: 1.8rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
 button.btn{
-  font-family: "Sawarabi Gothic";
+    font-family: "Sawarabi Gothic";
     display: inline-block;
     position: relative;
     text-decoration: none;
     color: #fff;
     width: 450px;
-    height: 60px;
+    height: 50px;
     margin: 15px 0 15px;
     border-radius: 5px;
     text-align: center;
@@ -58,16 +74,149 @@ button.btn:active{/*押したとき*/
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
     background: #00247a;
 }
-h2.top_content{
-  margin-bottom: 20px;
-  margin-bottom: 2rem;
-  line-height:1.5;
-  padding-top:5px;
-  padding-top:0.5rem;
-  font-size: 18px;
-  font-size: 1.8rem;
-  word-wrap: break-word;
-  word-break: break-all;
+
+.button_wrapper{
+   text-align:center;
+   margin-bottom: 30px;
+   margin-top: 20px;
+}
+
+.main-content-area {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: auto;
+    line-height: 1.8;
+}
+
+/* コンテンツ写真効果 */
+.view {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    float: left;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+.view .mask, .view .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+.view h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-size: 17px;
+    padding: 10px;
+    background: #002579;
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    top:120px;
+    color: #333;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000;
+    position:absolute;
+    top:0;
+    right:0;
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000;
+}
+.view-first img {
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.65);
+    transition: all 0.4s ease-in-out;
+}
+.view-first h3 {
+    transform: translateY(200px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first:hover img {
+    transform: scale(1.1);
+}
+.view-first:hover .mask {
+    opacity: 1;
+}
+.view-first:hover h3,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+/* コンテンツ写真効果 ここまで*/
+.content_list{
+  width: 80%;
+  margin: 0 auto;
+}
+ul.content_list li{
+  font-size: 1.5em;
+}
+.content_wrap{
+  margin-top: 30px;
+}
+ul.main-content-list{
+  width: 100%;
+}
+ul.main-content-list li{
+  display:inline;
+}
+ul.main-content-list p{
+  display: inline-block;
+  width: 35%;
+}
+ul.main-content-list img{
+
+}
+i {
+  margin-right: 10px;
 }
 @media screen and (min-width: 786px){
 /*#site-navigation ul li {
@@ -86,10 +235,10 @@ h2.top_content{
   display: inline-flex;
   margin-bottom: 30px;
 }
-img.content_img{
-  width: 32.8%;
+/*img.content_img{
+  width: 100%;
   height: 100%;
   margin: 3px;
-}
+}*/
 
 }
