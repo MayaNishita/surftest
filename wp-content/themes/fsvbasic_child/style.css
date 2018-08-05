@@ -213,7 +213,9 @@ ul.main-content-list p{
   width: 35%;
 }
 ul.main-content-list img{
-
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
 i {
   margin-right: 10px;

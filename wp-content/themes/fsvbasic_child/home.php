@@ -148,7 +148,7 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 
 	<ul class="main-content-list">
 		<li>
-			<img src="" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
 			新築一戸建、中古一戸建、土地、マンションの立地や<br>
@@ -157,7 +157,7 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</li>
 		<li>
-			<img src="" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b2.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
 			新築一戸建、中古一戸建、土地、マンションの立地や<br>
@@ -166,7 +166,7 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</li>
 		<li>
-			<img src="" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>i/mg/b3.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
 			新築一戸建、中古一戸建、土地、マンションの立地や<br>
@@ -175,7 +175,7 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</li>
 		<li>
-			<img src="" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b4.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
 			新築一戸建、中古一戸建、土地、マンションの立地や<br>
@@ -184,7 +184,7 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</li>
 		<li>
-			<img src="" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b5.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
 			新築一戸建、中古一戸建、土地、マンションの立地や<br>
@@ -193,7 +193,7 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</li>
 		<li>
-			<img src="" alt="">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b6.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
 			新築一戸建、中古一戸建、土地、マンションの立地や<br>
