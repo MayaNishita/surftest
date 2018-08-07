@@ -146,8 +146,8 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 <div class="content_wrap">
 	<h2 class="top_content">購入の流れ</h2>
 
-	<ul class="main-content-list">
-		<li>
+	<div class="main-content-list">
+		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
@@ -155,8 +155,8 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
-		</li>
-		<li>
+		</div>
+		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b2.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
@@ -164,17 +164,17 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
-		</li>
-		<li>
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>i/mg/b3.jpg" alt="">
+		</div>
+		<div class="contentBox">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b3.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
 			新築一戸建、中古一戸建、土地、マンションの立地や<br>
 			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
-		</li>
-		<li>
+		</div>
+		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b4.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
@@ -182,8 +182,8 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
-		</li>
-		<li>
+		</div>
+		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b5.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
@@ -191,8 +191,8 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
-		</li>
-		<li>
+		</div>
+		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b6.jpg" alt="">
 			<p>お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
@@ -200,8 +200,8 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
-		</li>
-</ul>
+		</div>
+</div>
 	<div class="button_wrapper">
 			<button class="btn">まずは無料相談・査定</button>
 	</div>
@@ -211,17 +211,15 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 <section>
 <h1 class="main-content-title">資産の活用</h1>
 <div class="content_wrap">
-	<ul class="main-content-list">
-		<li>1.定期借地の場合　・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</li>
-		<li>2.アパート経営の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキストサーフエステートならリフォームして家賃アップも可能。<br>
-		<button>リフォーム事例を見る</button></li>
-		<li>3.賃貸マンションの場合・・・ダミーテキストダミーテキストダミーテキストダミーテキサーフエステートならリフォームして家賃アップも可能。<br>
-		<button>リフォーム事例を見る</button></li>
-		<li>4.等価交換の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</li>
-		<li>5.共同分譲の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</li>
-		<li>6.駐車場経営の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</li>
-		<li>7.土地売却の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</li>
-	</ul>
+	<h2 class="top_content">各資産の活用方法</h2>
+		<div class="main-content-list">
+		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>1.定期借地の場合　・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</p></div>
+		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>2.アパート経営の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキストサーフエステートならリフォームして家賃アップも可能。<br>		<button>リフォーム事例を見る</button></div>
+		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>3.賃貸マンションの場合・・・ダミーテキストダミーテキストダミーテキストダミーテキサーフエステートならリフォームして家賃アップも可能。<br><button>リフォーム事例を見る</button></div>
+		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>4.等価交換の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</div>
+		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>5.共同分譲の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</div>
+		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>6.駐車場経営の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</div>
+</div>
 
 	<div class="button_wrapper">
 			<button class="btn">まずは無料相談・査定</button>

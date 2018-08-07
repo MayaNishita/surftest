@@ -202,23 +202,31 @@ ul.content_list li{
 .content_wrap{
   margin-top: 30px;
 }
-ul.main-content-list{
+.main-content-list,.content_list{
   width: 100%;
 }
-ul.main-content-list li{
-  display:inline;
+.main-content-list , .content_list{
+  display: unset;
 }
-ul.main-content-list p{
-  display: inline-block;
-  width: 35%;
+.contentBox p {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
 }
-ul.main-content-list img{
-  width: 250px;
-  height: 250px;
+.contentBox img{
+  width: 120px;
+  height: 120px;
+  margin:5px;
   object-fit: cover;
 }
 i {
   margin-right: 10px;
+}
+.contentBox {
+  padding: 15px;
+  display: inline-block;
+  width: 49%;
+  display: inline-block;
 }
 @media screen and (min-width: 786px){
 /*#site-navigation ul li {
