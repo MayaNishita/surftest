@@ -202,18 +202,18 @@ ul.content_list li{
 .content_wrap{
   margin-top: 30px;
 }
-.main-content-list,.content_list{
+div.main-content-list{
   width: 100%;
 }
-.main-content-list , .content_list{
+div.main-content-list , div.content_list{
   display: unset;
 }
-.contentBox p {
+div.contentBox p {
     display: inline-block;
     vertical-align: top;
     width: 70%;
 }
-.contentBox img{
+div.contentBox img{
   width: 120px;
   height: 120px;
   margin:5px;
