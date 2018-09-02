@@ -136,8 +136,8 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 		<li><i class="far fa-check-square"></i>相続、買い替え、任意売却、転勤などのご理由なども当社では対応致しております。テキストはダミーです。</li>
 	</ul>
 
-	<div class="button_wrapper">
-			<button class="btn">まずは無料相談・査定</button>
+	<div class="btn_wrapper">
+			<a href="#" class="btn">まずは無料相談・査定</a>
 	</div>
 </div>
 </section><!-- 売りたい -->
@@ -149,61 +149,61 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 	<div class="main-content-list">
 		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
-			<p>お客様の購入希望条件をお知らせ下さい
+			<p>①　お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
-			新築一戸建、中古一戸建、土地、マンションの立地や<br>
-			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
+			新築一戸建、中古一戸建、土地、マンションの立地や
+			価格、築年数、間取りなど不動産購入に関する事はなんでも
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</div>
 		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b2.jpg" alt="">
-			<p>お客様の購入希望条件をお知らせ下さい
+			<p>②　お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
-			新築一戸建、中古一戸建、土地、マンションの立地や<br>
-			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
+			新築一戸建、中古一戸建、土地、マンションの立地や
+			価格、築年数、間取りなど不動産購入に関する事はなんでも
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</div>
 		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b3.jpg" alt="">
-			<p>お客様の購入希望条件をお知らせ下さい
+			<p>③　お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
-			新築一戸建、中古一戸建、土地、マンションの立地や<br>
-			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
+			新築一戸建、中古一戸建、土地、マンションの立地や
+			価格、築年数、間取りなど不動産購入に関する事はなんでも
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</div>
 		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b4.jpg" alt="">
-			<p>お客様の購入希望条件をお知らせ下さい
+			<p>④　お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
-			新築一戸建、中古一戸建、土地、マンションの立地や<br>
-			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
+			新築一戸建、中古一戸建、土地、マンションの立地や
+			価格、築年数、間取りなど不動産購入に関する事はなんでも
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</div>
 		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b5.jpg" alt="">
-			<p>お客様の購入希望条件をお知らせ下さい
+			<p>⑤　お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
-			新築一戸建、中古一戸建、土地、マンションの立地や<br>
-			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
+			新築一戸建、中古一戸建、土地、マンションの立地や
+			価格、築年数、間取りなど不動産購入に関する事はなんでも
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</div>
 		<div class="contentBox">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b6.jpg" alt="">
-			<p>お客様の購入希望条件をお知らせ下さい
+			<p>⑥　お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
-			新築一戸建、中古一戸建、土地、マンションの立地や<br>
-			価格、築年数、間取りなど不動産購入に関する事はなんでも<br>
+			新築一戸建、中古一戸建、土地、マンションの立地や
+			価格、築年数、間取りなど不動産購入に関する事はなんでも
 			ご相談下さい。<br>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</div>
 </div>
-	<div class="button_wrapper">
-			<button class="btn">まずは無料相談・査定</button>
+	<div class="btn_wrapper">
+			<a class="btn">まずは無料相談・査定</a>
 	</div>
 </div>
 </section><!-- 買いたい -->
@@ -212,17 +212,37 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 <h1 class="main-content-title">資産の活用</h1>
 <div class="content_wrap">
 	<h2 class="top_content">各資産の活用方法</h2>
-		<div class="main-content-list">
-		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>1.定期借地の場合　・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</p></div>
-		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>2.アパート経営の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキストサーフエステートならリフォームして家賃アップも可能。<br>		<button>リフォーム事例を見る</button></div>
-		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>3.賃貸マンションの場合・・・ダミーテキストダミーテキストダミーテキストダミーテキサーフエステートならリフォームして家賃アップも可能。<br><button>リフォーム事例を見る</button></div>
-		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>4.等価交換の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</div>
-		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>5.共同分譲の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</div>
-		<div class="contentBox"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt=""><p>6.駐車場経営の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</div>
-</div>
+	<div class="main-content-list">
+		<div class="contentBox">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
+			<p>定期借地の場合　・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+		</div>
+		<div class="contentBox">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
+			<p>アパート経営の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキストサーフエステートならリフォームして家賃アップも可能。</p>
+				<!-- <a>リフォーム事例を見る</a> -->
+		</div>
+		<div class="contentBox">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
+			<p>賃貸マンションの場合・・・ダミーテキストダミーテキストダミーテキストダミーテキサーフエステートならリフォームして家賃アップも可能。</p>
+			<!-- <a>リフォーム事例を見る</a> -->
+		</div>
+		<div class="contentBox">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
+			<p>等価交換の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+		</div>
+		<div class="contentBox">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
+			<p>共同分譲の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+		</div>
+		<div class="contentBox">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
+			<p>駐車場経営の場合・・・ダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+		</div>
+	</div>
 
-	<div class="button_wrapper">
-			<button class="btn">まずは無料相談・査定</button>
+	<div class="btn_wrapper">
+			<a class="btn">まずは無料相談・査定</a>
 	</div>
 </div>
 </section><!-- 資産活用	 -->
@@ -232,7 +252,10 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 <div class="content_wrap">
 	<h2 class="top_content">リフォームとは</h2>
 	<p>リフォームは「元に戻す」、リノベーションは「作り変える」。</p>
-	<img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
+	<img class="squarePhoto" src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
+	<img class="squarePhoto" src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
+	<img class="squarePhoto" src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
+	<img class="squarePhoto" src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
 	<div class="content_wrap">
 		<h3>リフォームとは</h3>
 		<p>古くなった住まいを、新築当時の状態に戻すこと。</p>
@@ -248,20 +271,20 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 </div>
 <div class="content_wrap">
 	<h2 class="top_content">リフォーム事例</h2>
-	<div class="content_wrap">
+	<div class="contentBoxL clearfix">
 		<h3>平均入居率50％だったビルも70％を超える安定収益に！</h3>
-		<img src="" alt="">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
 		<p>駅近くのビルですが、店舗事務所向けなため入居率が安定せず、悩んでいたところ、リノベーションにより、ゲストハウスやマンスリーマンションも取り入れ、結果としては平均入居率50％だったビルもサブリース契約により70％を超える安定収益に変わりました。リスクが低い上、利回りも表面で10%、税引き後では8％を超えており、大満足です。おかげさまで現在は10棟になり、全てを委託しています。
 		ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
 	</div>
-	<div class="content_wrap">
+	<div class="contentBoxL clearfix">
 		<h3>平均入居率50％だったビルも70％を超える安定収益に！</h3>
-		<img src="" alt="">
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
 		<p>駅近くのビルですが、店舗事務所向けなため入居率が安定せず、悩んでいたところ、リノベーションにより、ゲストハウスやマンスリーマンションも取り入れ、結果としては平均入居率50％だったビルもサブリース契約により70％を超える安定収益に変わりました。リスクが低い上、利回りも表面で10%、税引き後では8％を超えており、大満足です。おかげさまで現在は10棟になり、全てを委託しています。
 		ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
 	</div>
-	<div class="button_wrapper">
-			<button class="btn">まずは無料相談・査定</button>
+	<div class="btn_wrapper">
+			<a class="btn">まずは無料相談・査定</a>
 	</div>
 </div>
 </section><!-- リフォーム事例 -->

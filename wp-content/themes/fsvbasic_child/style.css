@@ -13,8 +13,10 @@ h1.main-content-title{
   font-size:2.2rem;
   line-height:1.2;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-bottom: 2rem;
+  margin-top: 50px;
+  margin-top: 5rem;
+  margin-bottom: 60px;
+  margin-bottom: 6rem;
   padding-bottom:10px;
   padding-bottom:1rem;
   border-bottom:3px solid #ccc;
@@ -35,8 +37,8 @@ h1.main-content-title{
 h2.top_content{
   border-bottom: 0.3rem solid #eee;
   text-align: center;
-  margin-bottom: 40px;
-  margin-bottom: 4rem;
+  margin-bottom: 50px;
+  margin-bottom: 5rem;
   margin-top: 60px;
   margin-top: 6rem;
   line-height:1.5;
@@ -47,36 +49,32 @@ h2.top_content{
   word-wrap: break-word;
   word-break: break-all;
 }
-button.btn{
-    font-family: "Sawarabi Gothic";
+.btn{
     display: inline-block;
-    position: relative;
     text-decoration: none;
     color: #fff;
     width: 450px;
-    height: 50px;
+    height: 2em;
     margin: 15px 0 15px;
-    border-radius: 5px;
     text-align: center;
-    vertical-align: middle;
-    overflow: hidden;
     font-size: 1.8em;
-    font-weight: bold;
-    background-image: -webkit-linear-gradient(#1463dc 0%, #00247a 100%);
-    background-image: linear-gradient(#1463dc 0%, #00247a 100%);
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    line-height: 2.2em;
+    background: #00257a;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
 }
-
-button.btn:active{/*押したとき*/
+.btn:hover{
+  opacity: .8;
+  text-decoration: none;
+}
+.btn:active{/*押したとき*/
     -ms-transform: translateY(2px);
     -webkit-transform: translateY(2px);
     transform: translateY(2px);/*沈むように*/
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
-    background: #00247a;
+    opacity:.8;
 }
 
-.button_wrapper{
+.btn_wrapper{
    text-align:center;
    margin-bottom: 30px;
    margin-top: 20px;
@@ -128,7 +126,6 @@ button.btn:active{/*押したとき*/
     margin: 20px 0 0 0
 }
 .view p {
-    font-family: Georgia, serif;
     font-style: italic;
     font-size: 12px;
     position: relative;
@@ -209,21 +206,38 @@ div.main-content-list{
   overflow: hidden;
 }
 .contentBox {
+  min-height: 15rem;
   float: left;
-  width: 50%;
+  width: 47%;
+  margin: 1%;
 }
-.contentBox p {
+.contentBoxL {
+    min-height: 15rem;
+    width: 100%;
+}
+.contentBox p ,.contentBoxL p {
     width: 60%;
     float: left;
-    margin: 0 2% 5%;
+    margin: 0 2%;
 }
-.contentBox img{
+.contentBox img,.contentBoxL img{
     width: 35%;
     height: auto;
     float: left;
 }
 i {
   margin-right: 10px;
+}
+.content_wrap .squarePhoto{
+  float: left;
+  padding: 1%;
+  width:25%;
+  object-fit: cover;
+}
+.content_wrap .squarePhoto:after: {
+  content: "";
+  border: solid 1px #ccc;
+  transform: -35deg;
 }
 @media screen and (min-width: 786px){
 /*#site-navigation ul li {
@@ -248,4 +262,9 @@ i {
   margin: 3px;
 }*/
 
+}
+.clearfix:after {
+    content:" ";
+    display:block;
+    clear:both;
 }
