@@ -83,6 +83,12 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 </section><!-- .widget_recent_entries -->
 
 <?php endif; // is_active_sidebar( 'sidebar-6' ) ?>
+
+</div><!-- #topmain-widget-area -->
+
+</div><!-- #primary -->
+
+</div><!-- .component-inner -->
 <div class="flex-container">
         <article class="view view-first">
                  <div class="view view-first"><img class="content_img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/satei.jpg" alt="売る"></div>
@@ -113,9 +119,9 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
         </article>
 </div>
 
-<section>
-<h1 class="main-content-title">売りたい・住み替え</h1>
-<div class="content_wrap">
+<section class="fluid-box bggray">
+<div class="content_wrap fluid-box-inner">
+	<h1 class="main-content-title">売りたい・住み替え</h1>
 	<h2 class="top_content">まずはどんな不動産でもご相談下さい！テキストはダミーです。</h2>
 	<ul class="content_list">
 		<li><i class="far fa-check-square"></i>居住中でも売却はできるの？テキストはダミーです。</li>
@@ -127,7 +133,7 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 </div>
 
 <h2 class="top_content">サーフエステートでの買取のメリット</h2>
-<div class="content_wrap">
+<div class="content_wrap fluid-box-inner">
 	<ul class="content_list">
 		<li><i class="far fa-check-square"></i>早く現金化でき、資金の目処が立ちます。テキストはダミーです。</li>
 		<li><i class="far fa-check-square"></i>売却直後の瑕疵担保責任は免責されますのでご安心です。テキストはダミーです。</li>
@@ -136,18 +142,18 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 		<li><i class="far fa-check-square"></i>相続、買い替え、任意売却、転勤などのご理由なども当社では対応致しております。テキストはダミーです。</li>
 	</ul>
 
-	<div class="btn_wrapper">
+	<div class="btn_wrapper fluid-box-inner">
 			<a href="#" class="btn">まずは無料相談・査定</a>
 	</div>
 </div>
 </section><!-- 売りたい -->
-<section>
+
 <h1 class="main-content-title">買いたい</h1>
 <div class="content_wrap">
 	<h2 class="top_content">購入の流れ</h2>
 
 	<div class="main-content-list">
-		<div class="contentBox">
+		<div class="contentBox ">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
 			<p>①　お客様の購入希望条件をお知らせ下さい
 			お電話または問い合わせフォームからお気軽にご連絡ください。<br>
@@ -202,15 +208,14 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			お問い合わせ内容をもとにご連絡差し上げます。</p>
 		</div>
 </div>
-	<div class="btn_wrapper">
+	<div class="btn_wrapper fluid-box-inner">
 			<a class="btn">まずは無料相談・査定</a>
 	</div>
-</div>
-</section><!-- 買いたい -->
+</div><!-- 買いたい -->
 
-<section>
+<section class="fluid-box bggray">
 <h1 class="main-content-title">資産の活用</h1>
-<div class="content_wrap">
+<div class="content_wrap component-inner">
 	<h2 class="top_content">各資産の活用方法</h2>
 	<div class="main-content-list">
 		<div class="contentBox">
@@ -247,7 +252,7 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 </div>
 </section><!-- 資産活用	 -->
 
-<section>
+<div class="component-inner">
 <h1 class="main-content-title">リフォーム</h1>
 <div class="content_wrap">
 	<h2 class="top_content">リフォームとは</h2>
@@ -272,13 +277,13 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 <div class="content_wrap">
 	<h2 class="top_content">リフォーム事例</h2>
 	<div class="contentBoxL clearfix">
-		<h3>平均入居率50％だったビルも70％を超える安定収益に！</h3>
+		<h3 class="main-content-title">平均入居率50％だったビルも70％を超える安定収益に！</h3>
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
 		<p>駅近くのビルですが、店舗事務所向けなため入居率が安定せず、悩んでいたところ、リノベーションにより、ゲストハウスやマンスリーマンションも取り入れ、結果としては平均入居率50％だったビルもサブリース契約により70％を超える安定収益に変わりました。リスクが低い上、利回りも表面で10%、税引き後では8％を超えており、大満足です。おかげさまで現在は10棟になり、全てを委託しています。
 		ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
 	</div>
 	<div class="contentBoxL clearfix">
-		<h3>平均入居率50％だったビルも70％を超える安定収益に！</h3>
+		<h3 class="main-content-title">平均入居率50％だったビルも70％を超える安定収益に！</h3>
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
 		<p>駅近くのビルですが、店舗事務所向けなため入居率が安定せず、悩んでいたところ、リノベーションにより、ゲストハウスやマンスリーマンションも取り入れ、結果としては平均入居率50％だったビルもサブリース契約により70％を超える安定収益に変わりました。リスクが低い上、利回りも表面で10%、税引き後では8％を超えており、大満足です。おかげさまで現在は10棟になり、全てを委託しています。
 		ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。</p>
@@ -287,11 +292,9 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			<a class="btn">まずは無料相談・査定</a>
 	</div>
 </div>
-</section><!-- リフォーム事例 -->
-</div><!-- #topmain-widget-area -->
-
-</div><!-- #primary -->
-
+</div><!-- リフォーム事例 -->
+</div><!-- #main -->
+<div class="component-inner">
 <?php get_sidebar( 'left' ); ?>
 
 </div><!-- #wrapbox -->
@@ -299,8 +302,5 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 <?php get_sidebar( 'right' ); ?>
 
 </div><!-- .component-inner -->
-
-</div><!-- #main -->
-
 <?php get_sidebar( 'footer' ); ?>
 <?php get_footer(); ?>
