@@ -234,14 +234,15 @@ div.main-content-list{
     transform: translateX(-50%);
 }
 .fluid-box-inner{
- margin: 0 auto;
- padding: 25px;
+    margin: 0 auto;
+    padding: 25px;
 }
 i {
   margin-right: 10px;
 }
 .bggray{
-  background: #eee;
+    background: #eee;
+    padding-top: 5rem;
 }
 .content_wrap .squarePhoto{
   float: left;

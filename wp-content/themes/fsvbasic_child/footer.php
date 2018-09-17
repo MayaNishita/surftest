@@ -32,8 +32,6 @@ echo nl2br( $opFootText );
 </div><!-- #page -->
 
 </div><!-- #layout -->
-
 <?php wp_footer(); ?>
-
 </body>
 </html>

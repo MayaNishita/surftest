@@ -17,9 +17,9 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
+<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css">
+<link rel="author" href="https://plus.google.com/107766061849006545830"/>
 <?php wp_head(); ?>
-
 </head>
 
 <body <?php body_class(); ?>>

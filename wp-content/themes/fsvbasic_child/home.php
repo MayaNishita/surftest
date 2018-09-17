@@ -118,7 +118,6 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
                  </div>
         </article>
 </div>
-
 <section class="fluid-box bggray">
 <div class="content_wrap fluid-box-inner">
 	<h1 class="main-content-title">売りたい・住み替え</h1>
@@ -253,8 +252,8 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 </section><!-- 資産活用	 -->
 
 <div class="component-inner">
-<h1 class="main-content-title">リフォーム</h1>
 <div class="content_wrap">
+<h1 class="main-content-title">リフォーム</h1>
 	<h2 class="top_content">リフォームとは</h2>
 	<p>リフォームは「元に戻す」、リノベーションは「作り変える」。</p>
 	<img class="squarePhoto" src="<?php echo get_stylesheet_directory_uri(); ?>/img/b1.jpg" alt="">
