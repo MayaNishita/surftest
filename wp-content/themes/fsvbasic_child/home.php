@@ -146,7 +146,11 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 	</div>
 </div>
 </section><!-- 売りたい -->
-
+	<div class="scrollblock" id="examples-parallax">
+		<h2 id="parallax1">Parallax</h2>
+		<h3 id="parallax2">Parallax</h3>
+		<h3 id="parallax3">Parallax</h3>
+	</div>
 <h1 class="main-content-title">買いたい</h1>
 <div class="content_wrap">
 	<h2 class="top_content">購入の流れ</h2>
@@ -297,7 +301,11 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 <?php get_sidebar( 'left' ); ?>
 
 </div><!-- #wrapbox -->
-
+<script>
+    $(document).ready(function() {
+      scrollorama
+        .animate('#parallax2',{ delay: 400, duration: 600, property:'top', start:800, end:-800 })
+        .animate('#parallax3',{ delay: 200, duration: 1200, property:'top', start:500, end:-500 });
 <?php get_sidebar( 'right' ); ?>
 
 </div><!-- .component-inner -->
