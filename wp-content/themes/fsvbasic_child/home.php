@@ -93,7 +93,7 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
         <article class="view view-first">
                  <div class="view view-first"><img class="content_img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/satei.jpg" alt="売る"></div>
                  <div class="mask">
-                     	<a class="info" href="#">
+                     	<a class="info" href="#cont01">
                         <h3>売る</h3>
                         <p>キャッチコピー</p>
                       </a>
@@ -102,7 +102,7 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
                 <article class="view view-first">
                  <div class="view view-first"><img class="content_img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sale.jpg" alt="買う"></div>
                  <div class="mask">
-                     	<a class="info" href="#">
+                     	<a class="info" href="#cont02">
                         <h3>買う</h3>
                         <p>キャッチコピー</p>
                       </a>
@@ -111,15 +111,15 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
                 <article class="view view-first">
                  <div class="view view-first"><img class="content_img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/unyou.jpg" alt="資産活用"></div>
                  <div class="mask">
-                     	<a class="info" href="#">
+                     	<a class="info" href="#cont03">
                         <h3>資産活用</h3>
                         <p>キャッチコピー</p>
                       </a>
                  </div>
         </article>
 </div>
-<section class="fluid-box bggray">
-<div class="content_wrap fluid-box-inner">
+<section id="cont01" class="fluid-box bggray">
+<div class="box1 animated content_wrap fluid-box-inner">
 	<h1 class="main-content-title">売りたい・住み替え</h1>
 	<h2 class="top_content">まずはどんな不動産でもご相談下さい！テキストはダミーです。</h2>
 	<ul class="content_list">
@@ -146,13 +146,10 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 	</div>
 </div>
 </section><!-- 売りたい -->
-	<div class="scrollblock" id="examples-parallax">
-		<h2 id="parallax1">Parallax</h2>
-		<h3 id="parallax2">Parallax</h3>
-		<h3 id="parallax3">Parallax</h3>
-	</div>
+<section id="cont02" class="fluid-box">
+<div class="box2 animated content_wrap fluid-box-inner">
 <h1 class="main-content-title">買いたい</h1>
-<div class="content_wrap">
+<div class="content_wrap component-inner">
 	<h2 class="top_content">購入の流れ</h2>
 
 	<div class="main-content-list">
@@ -215,10 +212,12 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 			<a class="btn">まずは無料相談・査定</a>
 	</div>
 </div><!-- 買いたい -->
+</div>
+</section>
 
-<section class="fluid-box bggray">
+<section id="cont03" class="fluid-box bggray">
 <h1 class="main-content-title">資産の活用</h1>
-<div class="content_wrap component-inner">
+<div class="box3 animated content_wrap component-inner">
 	<h2 class="top_content">各資産の活用方法</h2>
 	<div class="main-content-list">
 		<div class="contentBox">
@@ -301,13 +300,6 @@ else : // is_active_sidebar( 'sidebar-6' ) ?>
 <?php get_sidebar( 'left' ); ?>
 
 </div><!-- #wrapbox -->
-<script>
-    $(document).ready(function() {
-      scrollorama
-        .animate('#parallax2',{ delay: 400, duration: 600, property:'top', start:800, end:-800 })
-        .animate('#parallax3',{ delay: 200, duration: 1200, property:'top', start:500, end:-500 });
-<?php get_sidebar( 'right' ); ?>
-
 </div><!-- .component-inner -->
 <?php get_sidebar( 'footer' ); ?>
 <?php get_footer(); ?>
